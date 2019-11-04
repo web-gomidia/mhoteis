@@ -1,0 +1,32 @@
+/**
+ * Custom login styles.
+ */
+.login h1 a {
+	/*background: url('../images/logo-login.png') center top no-repeat !important;*/
+	background: url('/wp-content/uploads/2019/02/cropped-logo.png') center top no-repeat !important;
+	background-size: 240px 118px !important;
+	height: 118px !important;
+	width: 240px !important;
+}
+
+/**
+ * Custom admin styles.
+ */
+#footer-upgrade {
+	visibility: hidden !important;
+}
+
+#footer-left {
+	float: right !important;
+}
+
+#contextual-help-link-wrap,
+#wp-version-message,
+#normal-sortables #dashboard_right_now .inside .versions p {
+	display: none !important;
+}
+
+.mce-window .mce-container-body.mce-abs-layout {
+	overflow: hidden !important;
+	overflow-y: auto !important;
+}
